@@ -1,4 +1,4 @@
-name: sigrid-publish
+name: sigrid-publish-one-on-one
 on:
   push:
     branches:
