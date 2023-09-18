@@ -11,5 +11,5 @@ jobs:
         run: "git clone https://github.com/Software-Improvement-Group/sigridci.git sigridci"
       - name: "Run Sigrid CI" 
         env:
-          SIGRID_CI_TOKEN: "${{ secrets.SIGRID_CI_TOKEN }}"
-        run: "./sigridci/sigridci/sigridci.py --customer opendemo --system cspacman --source ."
+          SIGRID_CI_TOKEN: "${{ secrets.SIGRID_CI_ORG_TOKEN }}"
+        run: "./sigridci/sigridci/sigridci.py --customer sigriddeepdive --system cspacman --source ."
